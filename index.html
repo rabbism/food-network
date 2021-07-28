@@ -7,38 +7,99 @@
     <title>Food Network</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!---The fist section of nave bar----> 
-    <section>
+    <section class="nav-bar">
         <div>
-            <nav>
-                <div class="logo">
-                    <p>Food Network</p>
-                </div>
-           
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">RECIPIE</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                </ul>
         
-            </nav>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">Recipies</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+           
         </div>
     </section>
-    <--2nd section Of this website-->
-        <section>
-            <div>
-                <h2>
-                    <span>Ship</span>The Dite,
-                </h2>
-                <h3>Just East Healthy</h3>
-                <h3>With Food Network</h3>
+    <!--2nd section Of this website-->
+        <section class="big-banner">
+            <div class="half-width">
+                <h1><span class="orange-color">Ship  </span>The Dite,</h1>
+                <h1>Just East Healthy</h1>
+                <h1>With Food Network</h1>
+                <p>Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
+                <a class="link-button" target="_blank" href="#">Order Food</a>
             </div>
-            <div></div>
+            <div class="half-width">
+                <img src="images/Group 8425.png" alt="">
+            </div>
         </section>
+        <!---About Section of this website-->
+        <section class="about-me">
+            <div class="half-width" id="personal-pic">
+                <img src="images/Person Image.png" alt=""></div>
+            <div class="half-width">
+                <h1>About Me</h1></bar>
+                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <button class="link-button">Contact Me</button>
+            </div>
+        </section>
+        <!---My Recipies title-->
+        <section>
+            <div class="my-recipes">
+                <h2>My Recipies</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+        </section>
+        <!------Recipies Items List--------->
+        <section class="recipes-items">
+            <div class="recipes-container">
+                <div>
+                    <img src="images/food/Project Cover1.jpg" alt="">
+                    <h1>Recipie Title</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                </div>
+                <div>
+                    <img src="images/food/Project Cover.png" alt="">
+                    <h1>Recipie Title</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                </div>
+                <div>
+                    <img src="images/food/Project Cover.jpg" alt="">
+                    <h1>Recipie Title</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                </div>
+            </div>
+
+        </section>
+        <!------Social Media All Collection-->
+        <section>
+            <div class="view-coantiner">
+                <div>
+                    <h1>700k</h1>
+                    <h6>Youtube Subscribers</h6>
+                </div>
+                <div>
+                    <h1>2.4M</h1>
+                    <h6>Instagram Followers</h6>
+                </div>
+                <div>
+                    <h1>100k</h1>
+                    <h6>Dribbble Short Like</h6>
+                </div>
+            </div>
+        </section>
+        <!----Footer------------------------->
+        <footer>
+            <div>
+                <h2><span class="orange-color">FOOD</span> NETWORK</h2>
+                <p>Eat Healthy to live healthy.Live healthy to live happy.</p>
+            </div>
+
+        </footer>
     
 </body>
 </html>
